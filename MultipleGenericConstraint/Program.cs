@@ -28,6 +28,12 @@ namespace MultipleGenericConstraint
             #endregion
         }
 
+        //Simple Generic Example
+        public static void SimpleGenericExample<T>(T model)
+        {
+                        
+        }
+
         //Declaring multiple Generic with single & multiple class names using interface
         public static void MultipleGenericExample1<T1, T2>() where T1 : ModelExample3, new() where T2 : IModelExample, new()
         {
