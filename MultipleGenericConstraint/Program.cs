@@ -52,8 +52,7 @@ namespace MultipleGenericConstraint
         public static void MultipleGenericExample1<T1, T2>(T1 t1, T2 t2) where T1 : ModelExample3, new() where T2 : IModelExample
         {
             Console.WriteLine(String.Format("T1 Attributes {0}  {1}", t1.attribute1, t1.attribute2));
-            Console.WriteLine(String.Format("T2 Attributes {0}  {1}", t2.attribute1, t2.attribute2));
-            
+            Console.WriteLine(String.Format("T2 Attributes {0}  {1}", t2.attribute1, t2.attribute2));            
         }
 
         //Declaring multiple generic with single class names
